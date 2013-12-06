@@ -1,0 +1,138 @@
+/*
+Responsive 996px grid system ~ Style CSS.
+Copyright 2013, Josh Cope
+*/
+
+/* =============================================================================
+   Site Styles
+   ========================================================================== */
+<<<<<<< HEAD
+#nav li {
+	display: inline;
+}
+
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
+
+=======
+/*
+#body {
+	background-image:url("../images/background/cf1.png");
+	background-repeat: repeat-x;
+	background-size: 25px 1080px;
+	background-attachment: fixed;
+	color: silver;
+}
+#wrapper {
+	padding: 20px;
+	background: #000;
+	height: 950px;
+}
+#logo img {
+	margin: 0 auto;
+	display: block;
+}
+#nav ul {
+	width: 100%;
+	margin: 0 auto;
+	background: black;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+}
+*/#nav li {
+	display: inline;
+	/*width: 14.2%;
+	background: white;
+	float: left;*/
+}/*
+#nav a {
+	color: black;
+	text-decoration: none;
+	background: white;
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;	
+}
+#nav a:hover {
+	color: white;
+	background: black;
+}
+#footer {
+	text-align: center;
+}
+div a {
+	color: silver;
+	text-decoration: none;
+}
+div a:hover {
+	color: white;
+	text-decoration: underline;
+}
+*/
+/* =============================================================================
+   Page Styles
+   ========================================================================== */
+/*
+   #gallery li {
+	float: left;
+	width: 30%;
+	margin: 0 auto;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+#gallery ul {
+	list-style-type: none;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 25px;
+}
+#gallery {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+#home-img-1 {
+	float: right;
+	padding: 20px;
+}
+#home-img-2 {
+	float: left;
+	padding: 20px;
+}
+*/
+>>>>>>> de1ba0c743df92bc221d39985d61337bcb6104d3
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Tablet Portrait size to Base 996px */
+@media only screen and (min-width: 768px) and (max-width: 995px) {}
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size */
+@media only screen and (max-width: 479px) {}
+
+
+/* =============================================================================
+   Font-Face
+   ========================================================================== */
+/* This is the proper syntax for an @font-face file
+
+/* @font-face {
+font-family: 'FontName';
+src: url('../fonts/FontName.eot');
+src: url('../fonts/FontName.eot?iefix') format('embedded-opentype'),
+url('../fonts/FontName.woff') format('woff'),
+url('../fonts/FontName.ttf') format('truetype'),
+url('../fonts/FontName.svg#FontName') format('svg');
+font-weight: normal;
+font-style: normal; }
+*/
