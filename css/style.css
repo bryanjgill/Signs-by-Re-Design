@@ -14,7 +14,10 @@ Copyright 2013, Josh Cope
 }
 h1, h2, h3, h4 {
 	color: #d9a432;
+	/*font-family: 'Poiret One', cursive;*/
+	font: 'Nixie One';/*, cursive;*/
 	text-shadow: 5px 5px 5px black;
+	padding-left: 25px;
 }
 #logo {
 	margin: 25px auto;
@@ -25,6 +28,8 @@ h1, h2, h3, h4 {
 	box-shadow: 0.3125em 0.3125em 0.3125em black;
 }
 #nav  ul{
+	margin-top: 0px;
+	border-radius: 4px;
 	margin: 0 auto;
 	background: black;
 	list-style-type: none;
@@ -57,6 +62,7 @@ h1, h2, h3, h4 {
 }
 
 #footer {
+	border-radius: 4px;
 	background: black;
 	border: 1px solid #8fa3bc;
 	color: #d0a432;
@@ -68,11 +74,16 @@ h1, h2, h3, h4 {
 #footer a {
 	color: #d0a432;
 }
-#copy p {
+#copy {
 	padding-left: 20px;
 }
+#byline {
+	padding-left: 60px;
+}
 #content {
+	margin-top: 16px;
 	border: 1px solid #8fa3bc;
+	border-radius: 4px;
 	background: black;
 	margin-bottom: 25px;
 	-moz-box-shadow: 0.3125em 0.3125em 0.3125em black;
@@ -93,16 +104,24 @@ h1, h2, h3, h4 {
    Page Styles
    ========================================================================== */
 #form {
-	border: 1px solid white;
-	background: silver;
+	border-radius: 4px;
+	border: 1px solid #8fa3bc;
+	background: black;
 	margin-bottom: 25px;
+	color: #8fa3bc;
+	padding-top: 25px;
 }
-
+#by_phone {
+	margin-top: 20px;
+}
+#form_checkbox {
+	text-align: center;
+}
 
 #submit, #reset {
     
     font-family: 'PT Sans', arial, serif;
-    color:#ffffff;
+    color:#8fa3bc;
     text-align:center;
     font-size:24px;
     font-weight:bold;
@@ -179,15 +198,15 @@ ul {
   margin:0 5px;
 }
 #navi img {
-  border-radius: 4px;
-  -moz-border-radius: 4px;
-  -webkit-box-shadow: 0 1px 0 #fff;
-  -moz-box-shadow: 0 1px 0 #fff;
-  box-shadow: 0 1px 0 #fff;
-  -webkit-transition: opacity .2s linear;
-  -moz-transition: opacity .2s linear;
-  -o-transition: opacity .2s linear;
-  transition: opacity .2s linear;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	/*-webkit-box-shadow: 0 1px 0 #fff;
+	-moz-box-shadow: 0 1px 0 #fff;
+	box-shadow: 0 1px 0 #fff;*/
+	-webkit-transition: opacity .2s linear;
+	-moz-transition: opacity .2s linear;
+	-o-transition: opacity .2s linear;
+	transition: opacity .2s linear;
   	border: 1px solid #8fa3bc;
 	margin-bottom: 25px;
 	-moz-box-shadow: 0.3125em 0.3125em 0.3125em black;
