@@ -2,7 +2,7 @@
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if gt IE 8]><!--><html id="home" class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -18,6 +18,8 @@
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	
 	<title>Signs by Design</title>
+</head>
+
 <!-- Body
   ============================== -->
 	<body id="body">
@@ -34,14 +36,14 @@
 
 <!-- Branding and Logo
   ============================== -->
-		<div id="logo">
-			<img src="images/logo/logo.jpg" alt="Signs by Design" title="">
+		<div id="logo" class="grid_4 prefix_4 alpha">
+			<img src="images/logo/logo.png" alt="Signs by Design" title="">
 		</div>
 	</header>
 	
 <!-- Navigation
   ============================== -->
-	<nav id="nav" class="grid_12">
+	<nav id="nav" class="grid_12 alpha">
 		<ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="about.html">About</a></li>
@@ -55,35 +57,31 @@
 
 <!-- Content
   ============================== -->
-	<article id="content" class="grid_8 alpha">
-		<h1 class="grid_12 alpha">Welcome to Signs By Design!</h1>
-			<section class="grid_8 alpha">
-			<div>
-				<p>Thank you for visiting our site. We design, manufacture, install, repair, maintain and refurbish all types of signage.</p>
-			</div>
-			<div>	
-				<p>We welcome both local customers and national accounts.  This website demonstrates a wide variety of custom signs. If you need assistance with what types of materials or sign will work best for you, please feel free to email or call, and we'll work with you to create a custom sign for your business.</p>
-			</div>
-		</section>
+	<h1 class="grid_12 alpha">Welcome to Signs By Design!</h1>
+	<article class="grid_8 alpha">
 		<section class="grid_8 alpha">
-			<div>
+			<div id="content">
+				<p>Thank you for visiting our site. We design, manufacture, install, repair, maintain and refurbish all types of signage.</p>
+				<p>We welcome both local customers and national accounts.  This website demonstrates a wide variety of custom signs. If you need assistance with what types of materials or sign will work best for you, please feel free to email or call, and we'll work with you to create a custom sign for your business.</p>
 				<p>Our staff values your business and is committed to providing quality products for our clients.   We desire to have a long term relationship with our clients by meeting all of their signage needs.</p>
-			</div>	
-			<div>	
 				<p>And as always, our success depends on your satisfaction.</p>
 			</div>
 		</section>
 	</article>
 	<aside class="grid_3 prefix_1 omega">
-		<div id="home-img-1">
-			<a href="images/home/1.jpg"><img src="images/home/tn/tn_1.jpg" alt="Monument"></a>
+		<div id="navi">
+			<ul>
+				<li><a href="#pic1"><img src="images/home/tn/tn_1.jpg" alt="Picture 1"></a></li>
+				<li><a href="#pic2"><img src="images/home/tn/tn_2.jpg" alt="Picture 2"></a></li>
+			</ul>
 		</div>
-		<br />
-		<br />
-		<div id="home-img-2">
-			<a href="images/home/2.jpg"><img src="images/home/tn/tn_2.jpg" alt="Car"></a>
-		</div>
+			<ul>
+				<li id="pic1"><a href="#home"><img src="images/home/1.jpg" alt=""></a></li>
+				<li id="pic2"><a href="#home"><img src="images/home/2.jpg" alt=""></a></li>
+			</ul>
 	</aside>
+	
+
 
 <!-- Images
   ============================== -->
